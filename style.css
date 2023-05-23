@@ -1,0 +1,811 @@
+@font-face {
+  font-family: "santhosh";
+  src: url(Dosis-VariableFont_wght.ttf);
+}
+
+.main {
+  height: 5700px;
+  width: 100%;
+  /* border: 1px solid; */
+  margin: auto;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  /* border: 1px solid; */
+  display: flex;
+  position: sticky;
+  top: 5px;
+}
+
+.header img {
+  padding: 10px 0 0 50px;
+}
+
+.header1 {
+  height: 30px;
+  width: 500px;
+  /* border: 1px solid; */
+  background-color: white;
+  margin: auto;
+  margin-left: 600px;
+}
+
+.header1 a {
+  text-decoration: none;
+  padding: 0 30px 0 0;
+  font-family: "santhosh";
+  font-weight: 600;
+  color: #0f394c;
+}
+
+.header1 a:hover {
+  color: skyblue;
+}
+
+.content1 {
+  height: 300px;
+  width: 100%;
+  /* border: 1px solid; */
+  display: flex;
+  background-color: aliceblue;
+}
+
+.con1 {
+  height: 300px;
+  width: 50%;
+  display: inline-block;
+  /* border: 1px solid; */
+}
+
+.con2 {
+  height: 300px;
+  width: 49.3%;
+  display: inline-block;
+  /* border: 1px solid; */
+  background-image: url(hero-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.con1 h1 {
+  font-family: "santhosh";
+  font-weight: 600;
+  text-align: justify;
+  padding-left: 40px;
+}
+
+.con1 p {
+  font-family: "santhosh";
+  text-align: justify;
+  padding: 0px 0px 30px 40px;
+  color: #444444;
+}
+
+.con1 a {
+  font-family: "santhosh";
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  color: black;
+  margin: 40px;
+}
+
+.con1 a:hover {
+  background-color: cornsilk;
+}
+
+.content2 {
+  height: 700px;
+  width: 100%;
+  /* border: 1px solid; */
+  display: flex;
+}
+
+.part1 {
+  height: 700px;
+  width: 40%;
+  /* border: 1px solid; */
+  display: inline-block;
+  margin-left: 40px;
+  background-image: url(couples.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 700px;
+}
+
+.part2 {
+  height: 700px;
+  width: 50%;
+  /* border: 1px solid; */
+  display: inline-block;
+}
+
+.part2 h1 {
+  font-family: "santhosh";
+  font-size: 28px;
+  font-weight: 700;
+  text-align: left;
+  padding: 30px 0 0 40px;
+}
+
+.part2 p {
+  font-family: "santhosh";
+  text-align: justify;
+  padding: 0px 0px 30px 40px;
+  color: #444444;
+}
+
+.part111 {
+  height: 70px;
+  width: 70px;
+  /* border: 1px solid; */
+  border-radius: 50%;
+  margin: -146px 0px 94px 100px;
+  font-size: 3rem;
+}
+
+.part111:hover {
+  color: skyblue;
+  background-color: skyblue;
+}
+
+.fa-gift {
+  color: skyblue;
+  padding: 10px 0 0 11px;
+}
+
+.fa-gift:hover {
+  color: white;
+}
+
+.part112 {
+  height: 70px;
+  width: 70px;
+  /* border: 1px solid; */
+  border-radius: 50%;
+  margin: -166px 0px 65px 100px;
+  font-size: 3rem;
+}
+
+.part112:hover {
+  color: skyblue;
+  background-color: skyblue;
+}
+
+.fa-eercast {
+  color: skyblue;
+  padding: 12px 0 0 14px;
+}
+
+.fa-eercast:hover {
+  color: white;
+}
+
+.part113 {
+  height: 70px;
+  width: 70px;
+  /* border: 1px solid; */
+  border-radius: 50%;
+  margin: -157px 0px 0 100px;
+  font-size: 3rem;
+}
+
+.part113:hover {
+  color: skyblue;
+  background-color: skyblue;
+}
+
+.fa-meetup {
+  color: skyblue;
+  padding: 11px 0 0 11px;
+}
+
+.fa-meetup:hover {
+  color: white;
+}
+
+.part2 h2 {
+  text-align: center;
+  padding: 15px 0 0;
+  font-size: 20px;
+  font-family: "santhosh";
+  color: #0f394c;
+}
+
+.part2 h2:hover {
+  color: skyblue;
+}
+
+.part2 h6 {
+  text-align: center;
+  padding: 0 108px 0 180px;
+  font-size: 15px;
+  font-family: "santhosh";
+  color: #444444;
+}
+
+.content3 {
+  height: 400px;
+  width: 100%;
+  /* border: 1px solid; */
+  background-image: url(brokenglass2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content3 h1 {
+  font-family: "santhosh";
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  padding: 50px 0 0 0;
+  color: #0f394c;
+}
+
+.content3 p {
+  font-family: "santhosh";
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  color: #444444;
+}
+
+.con3 {
+  height: 200px;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.con31 {
+  height: 200px;
+  width: 250px;
+  /* border: 1px solid blue; */
+  display: inline-block;
+  margin: 0px 25px;
+}
+
+.con31 h1 {
+  font-size: 40px;
+  padding: 0 0 0 0;
+  font-weight: 900;
+  color: dodgerblue;
+}
+
+.con31 p {
+  font-weight: 800;
+  padding: 0 0 10px 0;
+}
+
+.content4 {
+  height: 400px;
+  width: 100%;
+  /* border: 1px solid; */
+}
+
+.con41 {
+  height: 300px;
+  width: 90%;
+  /* border: 1px solid; */
+  margin: auto;
+  margin-top: 50px;
+}
+
+.con42 {
+  height: 150px;
+  width: 250px;
+  /* border: 1px solid red; */
+  display: inline-block;
+  margin-left: 26px;
+  box-shadow: grey 2px 2px;
+  margin: 10px;
+}
+
+.content4 img {
+  margin: 40px 0px 0 72px;
+}
+
+.content5 {
+  height: 650px;
+  width: 100%;
+  /* border: 1px solid; */
+  background-color: aliceblue;
+  padding: 1px 0 0 0;
+  box-shadow: 10px 10px skyblue;
+}
+
+.content5 h1 {
+  font-family: "santhosh";
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  color: #0f394c;
+}
+
+.content5 p {
+  font-family: "santhosh";
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  color: #444444;
+}
+
+.con51 {
+  height: 450px;
+  width: 90%;
+  /* border: 1px solid; */
+  margin: auto;
+}
+
+.con52 {
+  height: 200px;
+  width: 350px;
+  /* border: 1px solid blue; */
+  display: inline-block;
+  margin: 30px 0 0 15px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px skyblue;
+}
+
+.con52 h1 {
+  font-size: 25px;
+  text-align: center;
+  font-family: "santhosh";
+  padding-top: 10px;
+  color: #0f394c;
+}
+
+.con52 h1:hover {
+  color: skyblue;
+}
+
+.con52 p {
+  font-size: 15px;
+  font-weight: 550;
+  text-align: center;
+  padding: 20px;
+  color: #0f394c;
+}
+
+.content6 {
+  height: 1000px;
+  width: 100%;
+  /* border: 1px solid; */
+}
+
+.content6 h1 {
+  text-align: center;
+  font-family: "santhosh";
+  color: #0f394c;
+}
+
+.content6 p {
+  text-align: center;
+  font-size: 16px;
+  font-family: "santhosh";
+  font-weight: 500;
+  text-align: center;
+  padding: 0px 40px 0px 40px;
+  color: #444444;
+}
+
+.c61 {
+  height: 800px;
+  width: 90%;
+  margin: auto;
+  /* border: 1px solid; */
+}
+
+.c62 {
+  height: 250px;
+  width: 300px;
+  /* border: 1px solid; */
+  display: inline-block;
+  margin: 10px 0 0 50px;
+  background-image: url(portfolio-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c63 {
+  height: 250px;
+  width: 300px;
+  /* border: 1px solid; */
+  display: inline-block;
+  margin: 10px 0 0 50px;
+  background-image: url(portfolio-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c64 {
+  height: 250px;
+  width: 300px;
+  /* border: 1px solid; */
+  display: inline-block;
+  margin: 10px 0 0 50px;
+  background-image: url(portfolio-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c65 {
+  height: 250px;
+  width: 300px;
+  /* border: 1px solid; */
+  display: inline-block;
+  margin: 10px 0 0 50px;
+  background-image: url(portfolio-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c66 {
+  height: 250px;
+  width: 300px;
+  /* border: 1px solid; */
+  display: inline-block;
+  margin: 10px 0 0 50px;
+  background-image: url(portfolio-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c67 {
+  height: 250px;
+  width: 300px;
+  /* border: 1px solid; */
+  display: inline-block;
+  margin: 10px 0 0 50px;
+  background-image: url(portfolio-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c68 {
+  height: 250px;
+  width: 300px;
+  /* border: 1px solid; */
+  display: inline-block;
+  margin: 10px 0 0 50px;
+  background-image: url(portfolio-7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c69 {
+  height: 250px;
+  width: 300px;
+  /* border: 1px solid; */
+  display: inline-block;
+  margin: 10px 0 0 50px;
+  background-image: url(portfolio-8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c60 {
+  height: 250px;
+  width: 300px;
+  /* border: 1px solid; */
+  display: inline-block;
+  margin: 10px 0 0 50px;
+  background-image: url(portfolio-9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content7 {
+  height: 300px;
+  width: 100%;
+  /* border: 1px solid; */
+  background-color: black;
+  padding-top: 1px;
+}
+
+.client {
+  height: 100px;
+  width: 100px;
+  /* border: 1px solid; */
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 30px;
+  background-image: url(handsome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content7 h1 {
+  text-align: center;
+  font-family: "santhosh";
+  color: white;
+  font-size: 25px;
+}
+
+.content7 p {
+  font-family: "santhosh";
+  font-weight: 500;
+  text-align: center;
+  padding: 0px 40px 0px 40px;
+  color: white;
+}
+
+.content8 {
+  height: 700px;
+  width: 100%;
+  /* border: 1px solid; */
+  background-color: aliceblue;
+}
+
+.content8 h1 {
+  text-align: center;
+  font-family: "santhosh";
+  color: #0f394c;
+  font-size: 35px;
+}
+
+.content8 p {
+  font-family: "santhosh";
+  font-weight: 500;
+  text-align: center;
+  font-size: 20px;
+  color: #444444;
+}
+
+.c81 {
+  height: 500px;
+  width: 90%;
+  margin: auto;
+  /* border: 1px solid; */
+}
+
+.c82 {
+  height: 400px;
+  width: 250px;
+  /* border: 1px solid; */
+  display: inline-block;
+  margin: 60px 10px;
+  border-radius: 10px;
+  background-image: url(team-1.jpg);
+  background-repeat: no-repeat;
+  background-size: 250px 300px;
+  background-color: white;
+  box-shadow: 3px 2px gray;
+}
+
+.c83 {
+  height: 400px;
+  width: 250px;
+  /* border: 1px solid; */
+  display: inline-block;
+  margin: 60px 10px;
+  border-radius: 10px;
+  background-image: url(team-2.jpg);
+  background-repeat: no-repeat;
+  background-size: 250px 300px;
+  background-color: white;
+  box-shadow: 3px 2px gray;
+}
+
+.c84 {
+  height: 400px;
+  width: 250px;
+  /* border: 1px solid; */
+  display: inline-block;
+  margin: 60px 10px;
+  border-radius: 10px;
+  background-image: url(team-3.jpg);
+  background-repeat: no-repeat;
+  background-size: 250px 300px;
+  background-color: white;
+  box-shadow: 3px 2px gray;
+}
+
+.c85 {
+  height: 400px;
+  width: 250px;
+  /* border: 1px solid; */
+  display: inline-block;
+  margin: 60px 10px;
+  border-radius: 10px;
+  background-image: url(team-4.jpg);
+  background-repeat: no-repeat;
+  background-size: 250px 300px;
+  background-color: white;
+  box-shadow: 3px 2px gray;
+}
+
+.content8 h2 {
+  text-align: center;
+  font-family: "santhosh";
+  color: #0f394c;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 310px;
+}
+
+.content8 h6 {
+  text-align: center;
+  font-family: "santhosh";
+  color: #0f394c;
+}
+
+.content9 {
+  height: 600px;
+  width: 100%;
+  /* border: 1px solid; */
+}
+
+.content9 h1 {
+  text-align: center;
+  font-family: "santhosh";
+  color: #0f394c;
+  font-size: 45px;
+}
+
+.content9 p {
+  text-align: center;
+  font-family: "santhosh";
+  color: #0f394c;
+  font-weight: 500;
+}
+
+.c91 {
+  height: 440px;
+  width: 95%;
+  /* border: 1px solid; */
+  margin: auto;
+}
+
+.c92 {
+  height: 200px;
+  width: 250px;
+  /* border: 1px solid brown; */
+  display: inline-block;
+  margin: 10px 20px;
+  background-image: url(gallery-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c93 {
+  height: 200px;
+  width: 250px;
+  /* border: 1px solid brown; */
+  display: inline-block;
+  margin: 10px 20px;
+  background-image: url(gallery-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c94 {
+  height: 200px;
+  width: 250px;
+  /* border: 1px solid brown; */
+  display: inline-block;
+  margin: 10px 20px;
+  background-image: url(gallery-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c95 {
+  height: 200px;
+  width: 250px;
+  /* border: 1px solid brown; */
+  display: inline-block;
+  margin: 10px 20px;
+  background-image: url(gallery-4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c96 {
+  height: 200px;
+  width: 250px;
+  /* border: 1px solid brown; */
+  display: inline-block;
+  margin: 10px 20px;
+  background-image: url(gallery-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c97 {
+  height: 200px;
+  width: 250px;
+  /* border: 1px solid brown; */
+  display: inline-block;
+  margin: 10px 20px;
+  background-image: url(gallery-6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c98 {
+  height: 200px;
+  width: 250px;
+  /* border: 1px solid brown; */
+  display: inline-block;
+  margin: 10px 20px;
+  background-image: url(gallery-7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c99 {
+  height: 200px;
+  width: 250px;
+  /* border: 1px solid brown; */
+  display: inline-block;
+  margin: 10px 20px;
+  background-image: url(gallery-8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content10 {
+  height: 400px;
+  width: 100%;
+  /* border: 1px solid; */
+  font-size: 60px;
+  background-color: black;
+}
+
+.content10 h1 {
+  text-align: center;
+  font-family: "santhosh";
+  color: goldenrod;
+  font-size: 45px;
+  padding-top: 20px;
+}
+
+.fa-map-marker {
+  color: white;
+  padding: 0 0 0 414px;
+}
+
+.fa-map-marker:hover{color: red;}
+
+.fa-envelope {
+  color: white;
+  padding: 20px 0 0 403px;
+}
+
+.fa-envelope:hover{color: red;}
+
+.fa-mobile {
+  color: white;
+  padding: 20px 0 0 417px;
+}
+
+.fa-mobile:hover{color: red;}
+
+.c10 {
+  font-size: 70px;
+}
+
+.c10 span {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0 0 0 20px;
+  font-family: "santhosh";
+  color: burlywood;
+}
+
+.c10 span:hover {
+  color: skyblue;
+}
+
+.c10 small {
+  font-size: 15px;
+  font-family: "santhosh";
+  color: white;
+}
+
+.c10 small:hover{color: blue;}
